@@ -1,1 +1,61 @@
-# voskvoice
+vosk-model-tts-ru-0.10-multi
+
+| Номер | Аудио |
+|-------|-------|
+| 00 | [Voice 00](vosk_tts_generated_voices/voice_00.ogg) |
+| 01 | [Voice 01](vosk_tts_generated_voices/voice_01.ogg) |
+| 02 | [Voice 02](vosk_tts_generated_voices/voice_02.ogg) |
+| 03 | [Voice 03](vosk_tts_generated_voices/voice_03.ogg) |
+| 04 | [Voice 04](vosk_tts_generated_voices/voice_04.ogg) |
+| 05 | [Voice 05](vosk_tts_generated_voices/voice_05.ogg) |
+| 06 | [Voice 06](vosk_tts_generated_voices/voice_06.ogg) |
+| 07 | [Voice 07](vosk_tts_generated_voices/voice_07.ogg) |
+| 08 | [Voice 08](vosk_tts_generated_voices/voice_08.ogg) |
+| 09 | [Voice 09](vosk_tts_generated_voices/voice_09.ogg) |
+| 10 | [Voice 10](vosk_tts_generated_voices/voice_10.ogg) |
+| 11 | [Voice 11](vosk_tts_generated_voices/voice_11.ogg) |
+| 12 | [Voice 12](vosk_tts_generated_voices/voice_12.ogg) |
+| 13 | [Voice 13](vosk_tts_generated_voices/voice_13.ogg) |
+| 14 | [Voice 14](vosk_tts_generated_voices/voice_14.ogg) |
+| 15 | [Voice 15](vosk_tts_generated_voices/voice_15.ogg) |
+| 16 | [Voice 16](vosk_tts_generated_voices/voice_16.ogg) |
+| 17 | [Voice 17](vosk_tts_generated_voices/voice_17.ogg) |
+| 18 | [Voice 18](vosk_tts_generated_voices/voice_18.ogg) |
+| 19 | [Voice 19](vosk_tts_generated_voices/voice_19.ogg) |
+| 20 | [Voice 20](vosk_tts_generated_voices/voice_20.ogg) |
+| 21 | [Voice 21](vosk_tts_generated_voices/voice_21.ogg) |
+| 22 | [Voice 22](vosk_tts_generated_voices/voice_22.ogg) |
+| 23 | [Voice 23](vosk_tts_generated_voices/voice_23.ogg) |
+| 24 | [Voice 24](vosk_tts_generated_voices/voice_24.ogg) |
+| 25 | [Voice 25](vosk_tts_generated_voices/voice_25.ogg) |
+| 26 | [Voice 26](vosk_tts_generated_voices/voice_26.ogg) |
+| 27 | [Voice 27](vosk_tts_generated_voices/voice_27.ogg) |
+| 28 | [Voice 28](vosk_tts_generated_voices/voice_28.ogg) |
+| 29 | [Voice 29](vosk_tts_generated_voices/voice_29.ogg) |
+| 30 | [Voice 30](vosk_tts_generated_voices/voice_30.ogg) |
+| 31 | [Voice 31](vosk_tts_generated_voices/voice_31.ogg) |
+| 32 | [Voice 32](vosk_tts_generated_voices/voice_32.ogg) |
+| 33 | [Voice 33](vosk_tts_generated_voices/voice_33.ogg) |
+| 34 | [Voice 34](vosk_tts_generated_voices/voice_34.ogg) |
+| 35 | [Voice 35](vosk_tts_generated_voices/voice_35.ogg) |
+| 36 | [Voice 36](vosk_tts_generated_voices/voice_36.ogg) |
+| 37 | [Voice 37](vosk_tts_generated_voices/voice_37.ogg) |
+| 38 | [Voice 38](vosk_tts_generated_voices/voice_38.ogg) |
+| 39 | [Voice 39](vosk_tts_generated_voices/voice_39.ogg) |
+| 40 | [Voice 40](vosk_tts_generated_voices/voice_40.ogg) |
+| 41 | [Voice 41](vosk_tts_generated_voices/voice_41.ogg) |
+| 42 | [Voice 42](vosk_tts_generated_voices/voice_42.ogg) |
+| 43 | [Voice 43](vosk_tts_generated_voices/voice_43.ogg) |
+| 44 | [Voice 44](vosk_tts_generated_voices/voice_44.ogg) |
+| 45 | [Voice 45](vosk_tts_generated_voices/voice_45.ogg) |
+| 46 | [Voice 46](vosk_tts_generated_voices/voice_46.ogg) |
+| 47 | [Voice 47](vosk_tts_generated_voices/voice_47.ogg) |
+| 48 | [Voice 48](vosk_tts_generated_voices/voice_48.ogg) |
+| 49 | [Voice 49](vosk_tts_generated_voices/voice_49.ogg) |
+| 50 | [Voice 50](vosk_tts_generated_voices/voice_50.ogg) |
+| 51 | [Voice 51](vosk_tts_generated_voices/voice_51.ogg) |
+| 52 | [Voice 52](vosk_tts_generated_voices/voice_52.ogg) |
+| 53 | [Voice 53](vosk_tts_generated_voices/voice_53.ogg) |
+| 54 | [Voice 54](vosk_tts_generated_voices/voice_54.ogg) |
+| 55 | [Voice 55](vosk_tts_generated_voices/voice_55.ogg) |
+| 56 | [Voice 56](vosk_tts_generated_voices/voice_56.ogg) |
