@@ -32,7 +32,8 @@
             margin: 0;
             font-size: 0.9em;
             color: #555;
-            flex: 0 0 auto;
+            flex: 0 0 50px; /* Фиксированная ширина для метки */
+            text-align: center;
         }
         audio {
             width: 100%;
@@ -44,11 +45,26 @@
 <body>
     <h1>vosk-model-tts-ru-0.10-multi</h1>
     <script>
+        const genders = "mffmfffmmfmfmmmffmffmmfmfmmmmfmmmfmmfmfmmmfmfmfmffmfmfmmm";
+        let maleCount = 1;
+        let femaleCount = 1;
+
         for (let i = 0; i <= 56; i++) {
             const num = i.toString().padStart(2, '0');
+            const gender = genders[i];
+            let label = '';
+
+            if (gender === 'm') {
+                label = `[M${maleCount.toString().padStart(2, '0')}]`;
+                maleCount++;
+            } else if (gender === 'f') {
+                label = `[F${femaleCount.toString().padStart(2, '0')}]`;
+                femaleCount++;
+            }
+
             document.write(`
                 <div class="audio-container">
-                    <p>Voice ${num}</p>
+                    <p>${label}</p>
                     <audio controls>
                         <source src="vosk_tts_generated_voices/voice_${num}.ogg" type="audio/ogg">
                         Ваш браузер не поддерживает аудио.
