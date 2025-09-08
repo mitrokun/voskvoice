@@ -10,20 +10,21 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 10px;
-            background-color: #f4f4f4;
+            background-color: #1e1e1e; /* Темный фон для страницы */
+            color: #e0e0e0; /* Светлый цвет текста по умолчанию */
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #ffffff; /* Белый цвет для заголовка */
             font-size: 1.5em;
             margin: 10px 0;
         }
         .audio-container {
             margin: 5px 0;
             padding: 5px;
-            background-color: #fff;
+            background-color: #2c2c2c; /* Более светлый фон для контейнера */
             border-radius: 3px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border: 1px solid #444; /* Тонкая рамка для контраста */
             display: flex;
             align-items: center;
             gap: 10px;
@@ -31,14 +32,27 @@
         .audio-container p {
             margin: 0;
             font-size: 0.9em;
-            color: #555;
-            flex: 0 0 50px; /* Фиксированная ширина для метки */
+            color: #c7c7c7; /* Светло-серый цвет для метки */
+            flex: 0 0 110px; /* Увеличена ширина для полной метки */
             text-align: center;
+            white-space: nowrap; /* Запрещаем перенос строки */
         }
         audio {
             width: 100%;
             height: 30px;
             flex: 1;
+        }
+        /* Стили для плеера в темной теме (для браузеров на основе Chromium) */
+        audio::-webkit-media-controls-panel {
+            background-color: #2c2c2c;
+        }
+        audio::-webkit-media-controls-play-button,
+        audio::-webkit-media-controls-current-time-display,
+        audio::-webkit-media-controls-time-remaining-display,
+        audio::-webkit-media-controls-mute-button,
+        audio::-webkit-media-controls-volume-slider,
+        audio::-webkit-media-controls-fullscreen-button {
+            filter: invert(1);
         }
     </style>
 </head>
@@ -52,19 +66,22 @@
         for (let i = 0; i <= 56; i++) {
             const num = i.toString().padStart(2, '0');
             const gender = genders[i];
-            let label = '';
+            let genderLabel = '';
 
             if (gender === 'm') {
-                label = `[M${maleCount.toString().padStart(2, '0')}]`;
+                genderLabel = `[M${maleCount.toString().padStart(2, '0')}]`;
                 maleCount++;
             } else if (gender === 'f') {
-                label = `[F${femaleCount.toString().padStart(2, '0')}]`;
+                genderLabel = `[F${femaleCount.toString().padStart(2, '0')}]`;
                 femaleCount++;
             }
+            
+            // Собираем полную метку
+            const fullLabel = `Voice ${num}${genderLabel}`;
 
             document.write(`
                 <div class="audio-container">
-                    <p>${label}</p>
+                    <p>${fullLabel}</p>
                     <audio controls>
                         <source src="vosk_tts_generated_voices/voice_${num}.ogg" type="audio/ogg">
                         Ваш браузер не поддерживает аудио.
